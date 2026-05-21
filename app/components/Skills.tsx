@@ -68,7 +68,6 @@ export default function Skills() {
             >
               <div className="flex items-center justify-between mb-5">
                 <span className="bebas text-3xl">{group.title}</span>
-                <span className="text-2xl">{group.icon}</span>
               </div>
               <ul className="flex flex-col gap-2">
                 {group.skills.map((skill) => (
